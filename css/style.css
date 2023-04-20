@@ -1,38 +1,73 @@
-nav{
+nav#cabeza{
     background-color: black;
     text-align: center;
     padding: 30px;
-
 }
 .encabezado{
     text-decoration: none;
     color: white;
+    font-size: x-large;
     font-weight: 700;
+    margin-left: 30px;
 }
 body{
-    background-color: wheat;
+    background-color: darkgrey;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     margin: 0px;
     padding: 0px;
 }
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+}
 main{
-    margin: 50px;
-    padding: 50px;
-
+    margin-top: 20PX;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: x-large;
+    font-weight: 400;
+}
+h3{
+    font-size: larger;
+    font-weight: 300;
+    text-align: justify;
+}
+.subTitulo{
+font-size: x-large;
+font-weight: 600;
 }
 .lista{
     display: block;
-    margin-left: 30px;
-    margin-top: 5px;
-    text-decoration: none;
-    color: red;
+    font-size: large;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: 10px;
+    text-decoration: nne;
+    color: brown;
 }
 h4{
     text-align: center;
-    font-weight: 500;
+    font-size: larger;
+    font-weight: 700;
+}
+.pTexto{
+    font-size: large;
+    font-weight: 400;
+    text-align: justify;
+}
+.mapa{
+    text-align: center;
+}
+.img{
+    text-align: center;
 }
 footer{
-    text-align: center;
+    background-color: black;
+    padding: 30px;
 }
